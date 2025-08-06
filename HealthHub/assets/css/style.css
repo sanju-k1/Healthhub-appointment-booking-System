@@ -1,0 +1,89 @@
+/* 🌐 Global */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ✅ Navbar */
+.navbar {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* ✅ Hero Section */
+.hero {
+    background: url('../images/bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 { font-size: 40px; }
+.hero p { font-size: 18px; }
+.hero .btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero .btn:hover { background: #218838; }
+
+/* ✅ Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* ✅ Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* ✅ Buttons */
+a.btn-approve, a.btn-reject {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-approve { background: #28a745; }
+.btn-approve:hover { background: #218838; }
+.btn-reject { background: #dc3545; }
+.btn-reject:hover { background: #b21f2d; }
+
+/* ✅ Chart */
+canvas {
+    max-width: 180px;
+    display: block;
+    margin: 15px auto;
+}
+

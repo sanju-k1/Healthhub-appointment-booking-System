@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), 
+                url('../img/hospital-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ffdd57;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1em;
+}
+
+.login-box button {
+    width: 95%;
+    background: linear-gradient(45deg, #00c6ff, #007bff);
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.login-box button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #007bff, #00e6ff);
+}
+
+.login-box a {
+    color: #ffdd57;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    color: #fff176;
+}
+
+.error-msg {
+    background: rgba(255, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
