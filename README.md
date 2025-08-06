@@ -57,16 +57,6 @@
   * 🟡 Light Yellow → Pending
   * ❌ Light Red → Rejected
 
----
-
-## 📸 **Screenshots**
-
-| Dashboard                               | Appointment Table                             |
-| --------------------------------------- | --------------------------------------------- |
-| ![Dashboard](screenshots/dashboard.png) | ![Appointments](screenshots/appointments.png) |
-
----
-
 ## ⚡ **Installation Guide**
 
 ### 1️⃣ Clone Repository
