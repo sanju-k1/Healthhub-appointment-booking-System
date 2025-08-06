@@ -56,6 +56,8 @@
   * ✅ Light Green → Approved
   * 🟡 Light Yellow → Pending
   * ❌ Light Red → Rejected
+    
+---
 
 ## ⚡ **Installation Guide**
 
